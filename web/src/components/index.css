@@ -81,6 +81,11 @@ a:active {
 button {
     background: none;
     cursor: pointer;
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: none;
 }
 
 .is-keyboard-focus *:focus {
